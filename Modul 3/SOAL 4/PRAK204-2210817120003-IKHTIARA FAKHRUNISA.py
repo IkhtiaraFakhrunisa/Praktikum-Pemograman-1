@@ -1,0 +1,20 @@
+jariB = input()
+tinggiB = input()
+jariB = float(jariB)
+tinggiB = float(tinggiB)
+volumeB = 22 * jariB**2 * tinggiB /7
+luasB = 2 * 22 * jariB * (jariB + tinggiB) /7
+kelilingB = 2 * 22 * jariB /7
+print("Volume = {:.2f}".format(volumeB))
+print("Luas = {:.2f}".format(luasB))
+print("Keliling = {:.2f}\n".format(kelilingB))
+
+jariA, tinggiA = input().split()
+jariA = float(jariA)
+tinggiA = float(tinggiA)
+volume = 22 * jariA**2 * tinggiA /7
+luas = 2 * 22 * jariA * (jariA + tinggiA) /7
+keliling = 2 * 22 * jariA /7
+print("Volume = {:.2f}".format(volume))
+print("Luas = {:.2f}".format(luas))
+print("Keliling = {:.2f}".format(keliling))
